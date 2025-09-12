@@ -13,7 +13,7 @@ if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 
 
-df = pd.read_csv(f"F:\\study\\hydro ai\\data\\gujarat_groundwater_merged_final.csv")
+df = pd.read_csv("data/gujarat_groundwater_merged_final.csv")
 
 st.set_page_config(page_title="Water Quality Expert")
 st.title("Groundwater Quality Analysis Platform")
