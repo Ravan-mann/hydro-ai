@@ -2,3 +2,7 @@ streamlit
 pandas
 google-generativeai
 python-dotenv
+scikit-learn
+numpy
+reportlab
+fpdf
